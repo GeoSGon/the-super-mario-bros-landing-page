@@ -1,0 +1,61 @@
+@import url('./background.css');
+@import url('./header.css');
+@import url('./hero.css');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text: #EDF1F7;
+  --red: #C51212;
+  --blue: #0041C2;
+  --green: #14B02D;
+  --yellow: #ffc12b;
+}
+
+body, button, a {
+  color: var(--text);
+  font: 400 1rem "Mukta", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 4px auto;
+    padding: 0 1rem;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+li {
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;;
+  margin: 0 auto;
+  padding: 4rem 2rem 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
